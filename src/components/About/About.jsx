@@ -7,7 +7,8 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, 
+                paragraphFour, paragraphFive, paragraphSix, paragraphSeven, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,17 +40,29 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "I'm a web developer based in Vancouver, Canada."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "Here are a few technologies I've been working with recently:"}
+                </p>
+                <p className="about-wrapper__info-text" style={{visibility: 'hidden'}}>
+                  {paragraphThree || 'blank line'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphFour || 'WordPress'}
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
+                <p className="about-wrapper__info-text">
+                  {paragraphFive || 'JavaScript'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphSix || 'React'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphSeven || 'Node.js'}
+                </p>
+                {/* {resume && (
+                  <span className="mt-3 d-flex">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -59,7 +72,7 @@ const About = () => {
                       Resume
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>
