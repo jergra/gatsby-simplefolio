@@ -1,3 +1,6 @@
+code is at:
+	C:\gatsby-simplefolio
+
 web dev portfolio website hosted at Netlify, deployed as:
     https://inspiring-leakey-dfa50d.netlify.app/
 

@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'infoFeed.png',
     title: 'Information Feed',
     info: 'A website which functions as an information feed.',
-    info2: '',
+    info2: 'Django Python JavaScript Bootstrap PostgreSQL',
     url: 'https://jg-django.herokuapp.com/',
     repo: '', // if no repo, the button will not show up
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'onlineStore.png',
     title: 'Online Store',
     info: 'This demonstrates functionality of an online store. The products and payment are not real.',
-    info2: '',
+    info2: 'MongoDB Express React Node.js Context API',
     url: 'https://ecommerce-jergra.herokuapp.com/',
     repo: '', // if no repo, the button will not show up
   },
@@ -49,9 +49,18 @@ export const projectsData = [
     img: 'yt-clone.png',
     title: 'YouTube Videos',
     info: 'Access YouTube videos by latitude and longitude.',
-    info2: '',
+    info2: 'React Redux Firebase YouTube API',
     url: 'https://yt-clone-api.web.app/',
     repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'vueInvoiceApp.png',
+    title: 'Invoice App',
+    info: 'An invoice app built with Vue 3.',
+    info2: 'Vue 3 sass Firebase',
+    url: 'https://inspiring-leakey-dfa50d.netlify.app/',
+    repo: 'https://github.com/jergra/gatsby-simplefolio', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +68,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'username@gmail.com',
+  email: 'jergra@yahoo.com',
 };
 
 // FOOTER DATA
@@ -67,24 +76,25 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/jergra',
+    },
+    {
+      id: nanoid(),
       name: 'twitter',
-      url: 'https://twitter.com/burt.evans',
+      url: '',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: 'https://codepen.io/burt.evans',
+      url: '',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/burt.evans/',
+      url: '',
     },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/burt.evans',
-    },
+    
   ],
 };
 

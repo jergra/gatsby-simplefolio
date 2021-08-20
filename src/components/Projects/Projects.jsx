@@ -47,7 +47,7 @@ const Projects = () => {
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4" style={{fontSize: "17px"}}>{info2 || ''}</p>
                       </div>
                       <a
                         target="_blank"
@@ -99,7 +99,7 @@ const Projects = () => {
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
                           }}
                         >
-                          <div data-tilt className="thumbnail rounded">
+                          <div data-tilt className="rounded thumbnail">
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>

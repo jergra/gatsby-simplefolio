@@ -26,9 +26,9 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
-                  rel="noopener noreferrer"
+                  href={url}
                   target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={name}
                 >
                   <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
