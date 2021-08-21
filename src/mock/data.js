@@ -79,21 +79,21 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/jergra',
     },
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'linkedin',
+    //   url: '',
+    // },
     
   ],
 };
