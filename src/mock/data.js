@@ -64,6 +64,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'wikipediaPic.png',
+    title: 'Wikipedia Picture-of-the-day',
+    info: "Wikipedia's daily featured picture on a stand-alone page.",
+    info2: 'Flask Python WikipediaAPI',
+    url: 'https://wikipedia-pic.herokuapp.com/',
+    repo: 'https://github.com/jergra/wikipedia-pic', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'expensesTracker.png',
     title: 'Expenses Tracker',
     info: 'An expenses tracker built with Svelte.',
