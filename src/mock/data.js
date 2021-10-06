@@ -60,7 +60,16 @@ export const projectsData = [
     info: 'An invoice app built with Vue3.',
     info2: 'Vue3 sass Firebase',
     url: 'https://inspiring-leakey-dfa50d.netlify.app/',
-    repo: 'https://github.com/jergra/gatsby-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'expensesTracker.png',
+    title: 'Expenses Tracker',
+    info: 'An expenses tracker built with Svelte.',
+    info2: 'Svelte Javascript MongoDB Bulma',
+    url: 'https://expense-tracker-jergra43.herokuapp.com/#/dashboard',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 

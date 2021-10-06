@@ -14,6 +14,12 @@ from tutorial:
 to change content, go to:
     src\mock\data.js
 
+to get a .png image of the screen:
+  to get fullscreen: F11
+  unplug the second screen
+  screenshot: Windows + PrtScn
+
+
 to run locally:
     uncomment lines 107-116 of .cache/app.js
     npm start
@@ -25,4 +31,6 @@ to update:
     git push
 
 the resulting change at github triggers Netlify to update the website automatically
+
+a second refresh is needed for the changes to take hold.
 
