@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'onlineStore.png',
     title: 'Online Store',
     info: 'This demonstrates functionality of an online store. The products and payment are not real.',
-    info2: 'MongoDB Express React Node.js Context API',
+    info2: 'MongoDB Express React Node.js ContextAPI',
     url: 'https://ecommerce-jergra.herokuapp.com/',
     repo: '', // if no repo, the button will not show up
   },
@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'yt-clone.png',
     title: 'YouTube Videos',
     info: 'Access YouTube videos by latitude and longitude.',
-    info2: 'React Redux Firebase YouTube API',
+    info2: 'React Redux Firebase YouTubeAPI',
     url: 'https://yt-clone-api.web.app/',
     repo: '', // if no repo, the button will not show up
   },
@@ -57,8 +57,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'vueInvoiceApp.png',
     title: 'Invoice App',
-    info: 'An invoice app built with Vue 3.',
-    info2: 'Vue 3 sass Firebase',
+    info: 'An invoice app built with Vue3.',
+    info2: 'Vue3 sass Firebase',
     url: 'https://inspiring-leakey-dfa50d.netlify.app/',
     repo: 'https://github.com/jergra/gatsby-simplefolio', // if no repo, the button will not show up
   },

@@ -1,5 +1,6 @@
-code is at:
-	C:\gatsby-simplefolio
+august 21, 2021
+
+C:\webdev\portfolio-gatsby-simplefolio
 
 web dev portfolio website hosted at Netlify, deployed as:
     https://inspiring-leakey-dfa50d.netlify.app/
@@ -10,14 +11,15 @@ from tutorial:
 
     tutorial by: Code Creative
 
+to change content, go to:
+    src\mock\data.js
+
 to run locally:
     uncomment lines 107-116 of .cache/app.js
     npm start
     comment lines 107-116 of .cache/app.js
 
 to update:
-    make changes to the code, then, from this prompt:
-
     git add .
     git commit -m "changes"
     git push
