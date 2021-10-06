@@ -68,7 +68,7 @@ export const projectsData = [
     title: 'Expenses Tracker',
     info: 'An expenses tracker built with Svelte.',
     info2: 'Svelte Javascript MongoDB Bulma',
-    url: 'https://expense-tracker-jergra43.herokuapp.com/#/dashboard',
+    url: 'https://expense-tracker-jergra43.herokuapp.com',
     repo: '', // if no repo, the button will not show up
   },
 ];
